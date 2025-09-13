@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistemas - Assistência PB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Tela de Login -->
+  <div id="login-screen" class="login-screen">
+    <div class="login-box">
+      <h1>Login</h1>
+      <input type="password" id="password" placeholder="Digite a senha" autocomplete="current-password">
+      <button id="login-btn">Entrar</button>
+      <p id="error-msg" class="error-msg"></p>
+    </div>
+  </div>
+
+  <!-- Conteúdo Principal -->
+  <main id="main-content" class="hidden">
+    <header class="top-bar">
+      Secretaria Municipal de Assistência Social
+    </header>
+
+    <div class="container">
+      <!-- Card 1 -->
+      <a href="https://assistenciapb.github.io/Atendimento/" target="_blank" class="card">
+        <div class="icon">📝</div>
+        <h2>Atendimentos</h2>
+        <p>Registro e histórico de atendimentos</p>
+      </a>
+
+      <!-- Card 2 -->
+      <a href="https://assistenciapb.github.io/SEMAS/" target="_blank" class="card">
+        <div class="icon">📋</div>
+        <h2>Cadastros</h2>
+        <p>Gestão de cadastros físicos</p>
+      </a>
+
+      <!-- Card 3 (Logout) -->
+       <a href="https://assistenciapb.github.io/agendamentos/" target="_blank" class="card">
+        <div class="icon">📅</div>
+        <h2>Gestão de visitas</h2>
+        <p>Painel de controle das visitas</p>
+      </a>
+
+      <!-- Card 4 -->
+      <a href="#" id="logout-btn" class="card">
+        <div class="icon">🚪</div>
+        <h2>Logout</h2>
+        <p>Sair do sistema</p>
+      </a>
+    </div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
