@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const correctPassword = "123456";
+  const correctPassword = "sec25";
 
   const loginBtn = document.getElementById("login-btn");
   const passwordInput = document.getElementById("password");
@@ -61,3 +61,4 @@ document.addEventListener("DOMContentLoaded", () => {
     mainContent.classList.add("hidden");
   }
 });
+
